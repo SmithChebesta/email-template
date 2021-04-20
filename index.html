@@ -202,10 +202,12 @@
                         color: #BDBDBD;
                         margin-bottom: 10px;
                   }
-                  .footer_link:hover{
+                  .footer_link:not(.footer_link--title):hover{
                         color: #fff;
                   }
                   .footer_link--title{
+                        user-select: none;
+                        -moz-user-select: none;
                         font-weight: 500;
                         font-size: 14px;
                         text-align: center;
