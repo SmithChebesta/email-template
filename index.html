@@ -11,15 +11,7 @@
 			padding: 0;
 			background-color: #ccc;
 		}
-		table {
-			border-spacing: 0;
-		}
-		td {
-			padding: 0;
-		}
-		img {
-			border: 0;
-		}
+		
 
 		.wrapper{
 			width: 100%;
@@ -43,7 +35,28 @@
 			text-decoration: none;
 			color: #000;
 		}
-		
+		.footer-link{
+			text-decoration: none;
+			color: #BDBDBD;
+			font-size: 12px;
+		}
+		.footer-link:hover{
+			color: #eee;
+			
+		}
+		.feature-item{
+			padding: 40px 10px 0px;
+			max-width: 275px;
+			width:100%;
+			display: inline-block;
+		}
+		@media only screen and (max-width: 590px){
+			.feature-item{
+				max-width: none;
+				padding: 40px 30px 0px;
+
+			}
+		}
 	</style>
 </head>
 <body>
@@ -127,12 +140,12 @@
 						</tr>
 						<tr>
 							<td>
-								<table width="100%" style="padding:40px 30px 30px">
+								<table width="100%" style="padding:0px 0px 30px">
 									<tr>
-										<td>
-											<table width="100%" style="max-width: 250px;display: inline-block;">
+										<td align="center">
+											<table class="feature-item" width="100%" >
 												<tr>
-													<td>
+													<td >
 														<img width="100" height="100" src="https://ik.imagekit.io/i8rbxze9n/emailTemplate/actress-1_1LCeucYr3.png" alt="asian woman" srcset="">
 													</td>
 													<td style="padding-left:20px">
@@ -140,7 +153,7 @@
 													</td>
 												</tr>
 											</table>
-											<table align="right" width="100%" style="max-width: 250px;display: inline-block;">
+											<table class="feature-item"  width="100%" >
 												<tr>
 													<td>
 														<img width="100" height="100" src="https://ik.imagekit.io/i8rbxze9n/emailTemplate/actress-2_2jSQJXxw6.png" alt="orange hair woman" srcset="">
@@ -153,8 +166,8 @@
 										</td>
 									</tr>
 									<tr >
-										<td  style="padding-top: 40px;" >
-											<table width="100%"style="max-width: 250px;display: inline-block;">
+										<td align="center"   >
+											<table class="feature-item" width="100%">
 												<tr>
 													<td>
 														<img width="100" height="100" src="https://ik.imagekit.io/i8rbxze9n/emailTemplate/actress-3_X0tM3hjsICF.png" alt="black woman" srcset="">
@@ -164,7 +177,7 @@
 													</td>
 												</tr>
 											</table>
-											<table align="right" width="100%" style="max-width: 250px;display: inline-block;">
+											<table class="feature-item"  width="100%" >
 												<tr>
 													<td>
 														<img width="100" height="100" src="https://ik.imagekit.io/i8rbxze9n/emailTemplate/actress-4_gBJ755g-c.png" alt="blonde hair woman" srcset="">
@@ -190,7 +203,95 @@
 
 			</tr>
 			<tr name="footer">
-				
+				<td bgcolor="#000"style="background-color: #000" >
+					<table width="100%" style="padding: 0px 30px;" >
+						<tr>
+							<td align="center">	
+									<table  style="padding: 30px 0px;line-height: 25px;">
+										<tr style="font-size: 14px;color: #BDBDBD;font-weight: 500; ">
+											<td style="padding-bottom: 10px;padding-right: 40px;">
+												<table >
+													<tr>
+														<td style="padding-right: 5px;">
+															<img width="20" height="20" src="https://ik.imagekit.io/i8rbxze9n/emailTemplate/discover-png_AeYmyFeWYgR.png" alt="Discover" srcset="">
+														</td>
+														<td>
+															DISCOVER
+														</td>
+													</tr>
+												</table>
+												
+												
+											</td>
+											<td style="padding-bottom: 10px;padding-left: 0px;">
+												<table >
+													<tr>
+														<td style="padding-right: 5px;">
+															<img width="20" height="20" src="https://ik.imagekit.io/i8rbxze9n/emailTemplate/support-png_tJRpjr4EvfTW.png" alt="Support" srcset="">
+														</td>
+														<td>
+															SUPPORT
+														</td>
+													</tr>
+												</table>
+												
+												
+											</td>
+										</tr>
+										<tr >
+											<td><a href="#" class="footer-link" style="padding-right: 40px;">Home</a></td>
+											<td><a href="#" class="footer-link" style="padding-left: 0px;" >Live Chat Support</a></td>
+										</tr>
+										<tr >
+											<td><a href="#" class="footer-link" style="padding-right: 40px;">New Models</a></td>
+											<td><a href="#" class="footer-link" style="padding-left: 0px;">Call Us</a></td>
+										</tr>
+										<tr >
+											<td><a href="#" class="footer-link" style="padding-right: 40px;">GOLD Shows</a></td>
+											<td><a href="#" class="footer-link" style="padding-left: 0px;">Email Us</a></td>
+										</tr>
+										<tr >
+											<td style="padding-right: 40px;"></td>
+											<td><a href="#" class="footer-link" style="padding-left: 0px;">FAQ</a></td>
+										</tr>
+									</table>
+							</td>
+						</tr>
+						<tr>
+							<td height="1" style="height: 1px;background-color: #fff;">
+							</td>
+						</tr>
+						<tr>
+							<td align="center" style="padding: 30px 0px;"> 
+								<img src="https://ik.imagekit.io/i8rbxze9n/emailTemplate/logos-png_xeuRGjBwJoV.png" width="175" height="20" alt="" srcset="">
+							</td>
+						</tr>
+						<tr>
+							<td align="center" style="line-height: 25px;">
+								<a href="#" class="footer-link">Terms and Conditions</a>
+								<span style="color: #BDBDBD;"> | </span>
+								<a href="#" class="footer-link">Privacy Policy</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" style="line-height: 25px;" >
+								<a href="#" class="footer-link">DMCA Notice of Copyright Infringement</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" style="line-height: 25px;" >
+								<a href="#" class="footer-link">Cookie Policy</a>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" style="color: #BDBDBD;font-size: 12px;line-height: 18px;padding :30px 0px;">
+								<div >All models appearing on this website are 18 years or older.</div>
+								<div >18 U.S.C. 2257 and 2257A Record-Keeping Requirements Compliance Statement</div>
+								<div >RabbitsCams ™ 2021. All rights reserved.</div>
+							</td>
+						</tr>
+					</table>
+				</td>
 			</tr>
 
 		</table>
